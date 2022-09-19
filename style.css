@@ -1,4 +1,40 @@
+/**
+ * Folha de estilo personalizada do site ...
+ * @author Seu Nome
+ */
+
 /* Smartphone Portrait */
+
 body {
-    background-color: #00ffff;
+  background-color: #00ffff;
+}
+
+/* Smartphone Landscape */
+@media (min-width: 576px) {
+  body {
+    background-color: #ff0;
+  }
+}
+
+/* Tablet Portrait */
+@media (min-width: 768px) {
+  body {
+    background-color: #ff0000;
+    color: #fff;
+  }
+}
+
+/* Tablet Landscape */
+@media (min-width: 992px) {
+  body {
+    background-color: #00ff00;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  body {
+    background-color: #fff;
+    color: #000;
+  }
 }
